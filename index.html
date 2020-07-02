@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emi Discord Bot</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+<meta property="og:title" content="Emi Discord Bot" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://emi.loli.support" />
+<meta property="og:description" content="Emi is a powerful music bot developed in 'discord.js'' with some cool features for emote servers!" />
+<meta property="og:image" content="/assets/emiOG.png" />
+<meta property="og:image:width" content="1000" />
+<meta property="og:image:height" content="1000" />
+<meta name="twitter:title" content="Emi Discord Bot">
+<meta name="twitter:image" content="/assets/emiOG.png">
+<meta name="twitter:description" content="Emi is a powerful music bot developed in 'discord.js'' with some cool features for emote servers!">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Emi">
+<meta name=" theme-color" content="#3a099b">
+<meta name="description" content="Emi is a powerful music bot developed in Discord.js with some cool features for emote servers!">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="ab79e4588fee5ba66ca16a1f-text/javascript"></script>
+<script src="index.js" type="ab79e4588fee5ba66ca16a1f-text/javascript"></script>
+<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name=”robots” content=”noindex”>
+</head>
+<body style="background-color:#ff8bfc;overflow: hidden;">
+<div class="phone">
+<div class="emiPhone">
+<div class="emiPhoneBorder"></div>
+<div class="emiPhoneImage">
+<img src="assets/emi.png">
+</div>
+</div>
+<div class="phoneText">
+<h1>Invite BETA</h1>
+<h1>Support</h1>
+<h1>About</h1>
+<h1>Commands</h1>
+</div>
+</div>
+<div class="desktop">
+<canvas class="canvas"></canvas>
+<div class="background"></div>
+<script src="scripts/jquery-sakura.js" type="ab79e4588fee5ba66ca16a1f-text/javascript"></script>
+<script src="scripts/jquery-sakura.min.js" type="ab79e4588fee5ba66ca16a1f-text/javascript"></script>
+<link href="scripts/jquery-sakura.css" rel="stylesheet">
+<script type="ab79e4588fee5ba66ca16a1f-text/javascript">
+        
+        $(function(){
+          $('body').sakura();
+        });
+        
+            </script>
+<div class="menu">
+<div class="content"></div>
+<div id="page-menu">
+<div class="emi">
+<div class="emiText">
+<h1>Emi</h1>
+</div>
+<div class="emiImageMerge">
+<div class="emiBorder"></div>
+<div class="emiImage">
+<a href="https://discordapp.com/api/oauth2/authorize?client_id=689060444979462194&permissions=8&scope=bot" target="_blank">
+<img alt="emi" id="emiImageChange" src="assets/emi.png" onmouseover="if (!window.__cfRLUnblockHandlers) return false; SetImage()" data-cf-modified-ab79e4588fee5ba66ca16a1f-="">
+</a>
+</div>
+</div>
+<div class="emiInviteText">
+<h1>Invite BETA</h1>
+</div>
+</div>
+<div class="FeaturesText">
+<a href="javascript:features()">
+<p>Features</p>
+</a>
+</div>
+<div class="SupportText">
+<a href="https://discord.gg/eWxDcXU" target="_blank">
+<p>Support</p>
+</a>
+</div>
+<div class="DashboardText">
+<a href="https://dashboard.emi.loli.support/">
+<p>Dashboard</p>
+</a>
+</div>
+<div class="CommandsText">
+<a href="javascript:commands()">
+<p>Commands</p>
+</a>
+</div>
+</div>
+<div class="about" id="page-about" style="display:none">
+<p>hiii</p>
+<div class="Back">
+<a href="javascript:show()"><h1>Back</h1></a>
+</div>
+</div>
+<div class="features" id="page-features" style="display:none">
+<p>hii</p>
+<div class="Back">
+<a href="javascript:show()"><h1>Back</h1></a>
+</div>
+</div>
+<div class="commands" id="page-commands" style="display:none">
+<div class="commandsUtility">
+<h1>Utility</h1>
+<p>-info</p>
+<p>-avatar</p>
+<p>-userinfo</p>
+<p>-serverinfo</p>
+<p>-webhook</p>
+<p>-ping</p>
+<p>-kiss :)</p>
+</div>
+<div class="commandsMusic">
+<h1>Music</h1>
+<p>-play</p>
+<p>-skip</p>
+<p>-stop</p>
+<p>-np</p>
+<p>-join</p>
+<p>-leave</p>
+<p>-loop</p>
+<p>-pause</p>
+<p>-seek</p>
+<p>-rewind</p>
+</div>
+<div class="commandsEmotes">
+<h1>Emotes</h1>
+<p>-emotelist</p>
+<p>-emotebackup</p>
+</div>
+<div class="Back">
+<a href="javascript:show()"><h1>Back</h1></a>
+</div>
+</div>
+</div>
+</div>
+<script language="JavaScript" type="ab79e4588fee5ba66ca16a1f-text/javascript">
+            //////////F12 disable code////////////////////////
+            document.onkeypress = function (event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    //alert('No F-12');
+                    return false;
+                }
+            }
+            document.onmousedown = function (event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    //alert('No F-keys');
+                    return false;
+                }
+            }
+            document.onkeydown = function (event) {
+                event = (event || window.event);
+                if (event.keyCode == 123) {
+                    //alert('No F-keys');
+                    return false;
+                }
+            }
+            var message=":o";
+            function clickIE() {if (document.all) {(message);return false;}}
+            function clickNS(e) {if
+            (document.layers||(document.getElementById&&!document.all)) {
+                if (e.which==2||e.which==3) {(message);return false;}}}
+            if (document.layers)
+            {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+            else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+            document.oncontextmenu=new Function("return false")
+            function disableCtrlKeyCombination(e)
+            {
+                var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'w');
+                var key;
+                var isCtrl;
+                if(window.event)
+                {
+                    key = window.event.keyCode;
+                    if(window.event.ctrlKey)
+                        isCtrl = true;
+                    else
+                        isCtrl = false;
+                }
+                else
+                {
+                    key = e.which;
+                    if(e.ctrlKey)
+                        isCtrl = true;
+                    else
+                        isCtrl = false;
+                }
+                if(isCtrl)
+                {
+                    for(i=0; i<forbiddenKeys.length; i++)
+                    {
+                        if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+                        {
+                            alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            }
+            document.onkeydown = function(u) {
+                if(event.keyCode == 123) {
+                    return false;
+                }
+                if(u.ctrlKey && u.shiftKey && u.keyCode == 'I'.charCodeAt(0)){
+                    return false;
+                }
+                if(u.ctrlKey && u.shiftKey && u.keyCode == 'J'.charCodeAt(0)){
+                    return false;
+                }
+                if(u.ctrlKey && u.keyCode == 'U'.charCodeAt(0)){
+                    return false;
+                }
+            }
+        </script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="ab79e4588fee5ba66ca16a1f-|49" defer=""></script></body>
+</html>

@@ -1,0 +1,9 @@
+Sitemap: http://emi.loli.support/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Disallow: /assets/
+Disallow: /assets/favicon/
+Disallow: /scripts/
+Disallow: /cdn-cgi/
